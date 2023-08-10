@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    /* background-color: rgba(140, 137, 130, 0.924); */
+    background-image: linear-gradient(to left, rgba(117, 91, 195, 0.889), rgba(60, 174, 138, 0.849), rgba(147, 114, 154, 0.798));
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.container{
+    width: 520px;
+    height: 300px;
+    min-height: 100px;
+    margin: 100px auto;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px 6px rgba(113, 113, 113, 0.531);
+}
+
+.main{
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    display: block;
+    float: none;
+}
+
+.main h3{
+   font-size: 26px;
+   text-align: center;
+   margin-top: 0;
+   color: red;
+   font-weight: bold;
+   box-shadow: 0px 2px gainsboro;
+ 
+}
+
+.input-group{
+    width: 130px;
+    padding: 5px 15px;
+    margin-left: 15px;
+    float: left;
+    display: inline-block;
+}
+.input-group label{
+    font-size: 20px;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: normal;
+}
+
+input[type="text"]{
+    width: 140px;
+    margin: auto;
+    outline: none;
+    padding: 7px;
+    background-color: rgb(241, 246, 81);
+    border-radius: 3px;
+    font-size: 18px;
+    border: none;
+
+}
+
+button{
+    width: 140px;
+    margin-left: 34%;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    padding: 12px;
+    background-color: rgba(141, 60, 217, 0.886);
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: white;
+}
+
+#age{
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 22px;
+    color: black;
+    font-weight: 800;
+}
