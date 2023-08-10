@@ -3,13 +3,11 @@
 }
 
 body{
-    /* background-color: rgba(140, 137, 130, 0.924); */
+    
     background-image: linear-gradient(to left, rgba(117, 91, 195, 0.889), rgba(60, 174, 138, 0.849), rgba(147, 114, 154, 0.798));
     margin: 0;
     padding: 0;
 }
-
-
 
 
 .container{
@@ -33,7 +31,8 @@ body{
 .main h3{
    font-size: 26px;
    text-align: center;
-   margin-top: 0;
+   margin-top: 10px;
+   margin-bottom: 15px;
    color: red;
    font-weight: bold;
    box-shadow: 0px 2px gainsboro;
@@ -43,7 +42,7 @@ body{
 .input-group{
     width: 130px;
     padding: 5px 15px;
-    margin-left: 15px;
+    margin-left: 18px;
     float: left;
     display: inline-block;
 }
@@ -68,7 +67,7 @@ input[type="text"]{
 
 button{
     width: 140px;
-    margin-left: 34%;
+    margin-left: 35%;
     margin-top: 20px;
     outline: none;
     border: none;
@@ -78,10 +77,11 @@ button{
     font-weight: bold;
     border-radius: 5px;
     color: white;
+    cursor: pointer;
 }
 
 #age{
-    margin-left: 30px;
+    margin-left: 32px;
     margin-top: 30px;
     font-size: 22px;
     color: black;
